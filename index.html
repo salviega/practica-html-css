@@ -1,0 +1,69 @@
+<!-- Todo el contenido es HTML 5 -->
+<!DOCTYPE html>
+<!--  lang: lenguaje del proyecto-->
+<html lang="es">
+  <!-- Contenido de información importante para cargar el proyecto  -->
+  <head>
+    <!-- Etiqueta para cargar metadatos 
+    charset: habilita caracteres especiales -->
+    <meta charset="UTF-8" />
+    <!-- 
+    name: ayuda al navegador a que cuando un cliente buscar información 
+    salga la descripción de nuestro proyecto
+    content: el contenido de la descripción del proyecto -->
+    <meta name="description" content="Esta página te mostrará fotos de gatos" />
+    <!-- "robots": autorizamos a los robots de los navegadores a posicionar 
+    nuestra página en la lista de resultados de la búsqueda que se hagan  
+    "index-follow": permitimos el uso del proyecto a los robots 
+    "index-unfollow": no permitir el uso del proyecto a los robots -->
+    <meta name="robots" content="index-follow" />
+    <!--  Etiqueta para colocar el título en el tab del navegador-->
+    <title>Es mi página</title>
+    <!--  "viewport": el tamaño de la pantalla de izquierda a derecha es un «viewport»
+    "width:...": el tamaño que el texto va a escalar según el dispositivo 
+    en el que se observe-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Etiqueta para cargar CSS 
+    rel: que tipo de documento se va cargar
+    "stylesheet": hoja de estilos
+    href: la ruta donde se hubica el archivo -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- Contenido intercativo del proyecto, lo que se muestra -->
+  <body>
+    <!-- Etiquetas contenedoras: ayuda a estructurar el proyecto -->
+    <!-- Etiqueda de contenido:: información que se renderiza -->
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <h2>Lista de mercado</h2>
+          <ul>
+            <li>Verduras</li>
+            <ol>
+              <li><a href="#">Tomate</a></li>
+              <li><a href="#">Lechuga</a></li>
+              <li><a href="#">Cebolla</a></li>
+            </ol>
+            <li>Frutas</li>
+            <ol>
+              <li><a href="#">Manzana</a></li>
+              <li><a href="#">Pera</a></li>
+              <li><a href="#">Mango</a></li>
+            </ol>
+            <li>Lacteos</li>
+            <ol>
+              <li><a href="#">Queso</a></li>
+              <li><a href="#">Leche</a></li>
+              <li><a href="#">Kumis</a></li>
+            </ol>
+          </ul>
+        </article>
+      </section>
+      <aside></aside>
+    </main>
+    <footer></footer>
+  </body>
+</html>
