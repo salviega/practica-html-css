@@ -1,0 +1,38 @@
+.main-nav {
+    /* Margen de 10 píxeles arriba */
+    margin-top: 10px;
+    /* Elimina los bullets de las listas */
+    list-style: none;
+    /* Genera un espacio interno dentro de los contenedores */
+    padding-left: 0px;
+    /* Color de fondo */
+    background-color: aqua;
+}
+
+.main-nav__item {
+    /* Cambiar como vienen los elementos */
+    display: inline;
+}
+
+/* Aplícale a todas las etiquetas "a" que se encuentren dentro de esta clase todos estos estilos */
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* Define una estodo en el estilo del elemento : */
+/* El cursor esté encima del elemento */
+.main-nav__item a:hover {
+    color: blue;
+}
+/* Cuando le haga click al elemento */
+.main-nav__item a:active {
+    color: red;
+}
+/* Define una parte del estilo del elemento :: */
+/* Después del elemento agrégale este contenido */
+.main-nav__item a::after {
+    content: " | ";
+}
+

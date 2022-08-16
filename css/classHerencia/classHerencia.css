@@ -1,0 +1,10 @@
+html {
+    /* Tráigame ek 75% de la fuente inicial */
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    /* Hereda el tamaño del pardre, de HTML.  "inherit */
+    font-size: inherit;
+}

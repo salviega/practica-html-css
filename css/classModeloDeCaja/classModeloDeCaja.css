@@ -1,0 +1,15 @@
+/* selector universal */
+* {
+    /* Sume el padding con el tamaña del contenido y el border para que al final de el tamaño de la página */
+    /* NO RECALCULA EL MARGIN */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main {
+    border: 10px solid gray;
+    height: 500px;
+    /* 20px top to botton 35 left to right */
+    padding: 20px 35px;
+    width: 100%;
+}

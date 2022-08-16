@@ -1,0 +1,19 @@
+/* selector */
+
+p {
+    color: blue;
+    font-size: 30px;
+}
+
+/* class */
+
+.parrafo {
+    color: aquamarine;
+}
+
+/* id */
+
+#texto {
+    color: aqua;
+    font-size: 50px;
+}
